@@ -1,0 +1,16 @@
+{
+  "routes": [
+    {
+      "route": "/",
+      "serve": "/api/ssr"
+    },
+    {
+      "route": "/index.html",
+      "serve": "/api/ssr"
+    },
+    {
+      "route": "/*",
+      "serve": "/api/ssr"
+    }
+  ]
+}
