@@ -1,0 +1,15 @@
+{
+    "routes": [
+        {
+          "route": "/",
+          "rewrite": "/api/ssr"
+        },
+        {
+          "route": "/index.html",
+          "rewrite": "/api/ssr"
+        }
+    ],
+    "navigationFallback": {
+        "rewrite": "/api/ssr"
+    }
+}
